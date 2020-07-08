@@ -46,6 +46,7 @@ class AaaaController {
         error.name == "UserNotFoundException" ||
         error.name == "PasswordMisMatchException"
       ) {
+        console.log("222");
         return this.responseJson(
           response,
           undefined,
